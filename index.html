@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess songs</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Lobster&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="screen">
+        <h5>GUESS SONGS <i id="music" class="fas fa-music"></i></h5>
+        <button class="question">Question <span id="number-question">1</span>:</button>
+        <p id="question"></p>
+        <button onclick="play()">Play</button>
+        <button onclick="pause()">Pause</button>
+        <div id="animation" ></div>
+        <div class="list-answer">
+            <div class="answer " ><button id="answer1" onclick="checkAnswer('A')"></button></div>
+            <div class="answer " ><button id="answer2" onclick="checkAnswer('B')"></button></div>
+            <div class="answer " ><button id="answer3" onclick="checkAnswer('C')"></button></div>
+            <div class="answer " ><button id="answer4" onclick="checkAnswer('D')"></button></div>
+        </div>
+        <p id="kq"></p>
+        <div class="result">
+            <button>Score: <span id="score">0  </span><i class="fas fa-heart"></i></button>
+            <button onclick="next()"class="pass">Next</button>
+        </div>
+    </div>
+   
+    <script>
+
+    </script>
+    <script src="main.js"></script>
+</body>
+</html>
